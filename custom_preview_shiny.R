@@ -8,4 +8,4 @@ library(shinyCV)
 init_shinyCV(cv_path = here())
 
 # >>> 2. Preview your cv by running the dedicated function:
-preview_shinyCV("MyShinyCV", cv_mode = "basic", data_source = "manual", datas = NULL)
+preview_shinyCV("MyShinyCV", cv_mode = "academic_light", data_source = "manual", datas = NULL)
