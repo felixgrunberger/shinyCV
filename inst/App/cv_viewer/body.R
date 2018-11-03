@@ -5,8 +5,8 @@ body <- dashboardBody(
 
   # some script for the github part
   tags$script(src = "https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"),
-  tags$link(rel = "stylesheet",
-            href = "https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"),
+  tags$link(rel = "stylesheet",href = "custom.css"),
+            #href = "https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"),
 
   # Display all the boxes
   column(3, offset = 0, style = 'padding:0px;',
