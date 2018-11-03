@@ -14,6 +14,10 @@ body > div > aside {
   background-color: #FFFFFF;
 }
 
+#main-sidebar {
+  color: #FFF;
+  background-color: #FFF;
+}
 
 /* CHANGE COLOR OF SYMBOLS */
 i {
