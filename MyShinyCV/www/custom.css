@@ -25,11 +25,16 @@
 
 /* CHANGE COLOR OF MAIN SIDE BAR */
 .sidebar {
-  color: #FFF;
-  background-color: #FFF;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 /* CHANGE COLOR OF SYMBOLS */
 i {
   color: #21CE99;
+}
+
+
+#dynamicFooter {
+  color: #FFFFFF;
 }
