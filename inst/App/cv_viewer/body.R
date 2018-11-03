@@ -1,7 +1,4 @@
 body <- dashboardBody(
-  tags$head(
-    tags$link(rel = "stylesheet", type = "text/css", href = "custom.css")
-  ),
 
   # some script for the github part
   tags$script(src = "https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"),
