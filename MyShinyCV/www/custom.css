@@ -17,6 +17,11 @@
     border-top-color:#252C34;
 }
 
+/* customize background color of body */
+.content-wrapper {
+  background-color: red;
+}
+
 
 /* CHANGE COLOR OF MAIN SIDE BAR */
 main-sidebar {
