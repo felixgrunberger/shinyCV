@@ -24,8 +24,8 @@
 
 
 /* CHANGE COLOR OF MAIN SIDE BAR */
-.sidebar {
-  color: #000000;
+.main-sidebar {
+  background-color: #000000;
 }
 
 /* CHANGE COLOR OF SYMBOLS */
@@ -34,6 +34,6 @@ i {
 }
 
 
-.dynamicFooter {
-  color: #000000;
+#dynamicFooter {
+  background-color: #000000;
 }
