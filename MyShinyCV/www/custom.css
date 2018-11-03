@@ -11,7 +11,7 @@
 
 /* CHANGE COLOR OF MAIN SIDE BAR */
 body > div > aside {
-  color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 
