@@ -30,14 +30,22 @@
 
 /* CHANGE COLOR OF BUTTON */
 #profilebox > div > div > a {
+  background-color: #EBEBEB !important;
+}
+
+#profilebox > div > div > a:hover {
   background-color: #21CE99 !important;
 }
+
 
 /* CHANGE COLOR OF SYMBOLS */
 i {
   color: #21CE99;
 }
 
+b {
+  color: #000000;
+}
 
 #dynamicFooter {
   background-color: #000000;

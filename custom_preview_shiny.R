@@ -3,7 +3,6 @@ library(here)
 install_github("felixgrunberger/shinyCV")
 library(shinyCV)
 
-
 # >>> 1. Initialization of your main CV folder.
 init_shinyCV(cv_path = here())
 
