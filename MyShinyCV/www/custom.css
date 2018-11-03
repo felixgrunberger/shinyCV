@@ -28,6 +28,11 @@
   background-color: #000000 !important;
 }
 
+/* CHANGE COLOR OF BUTTON */
+#profilebox > div > div > a {
+  background-color: #21CE99 !important;
+}
+
 /* CHANGE COLOR OF SYMBOLS */
 i {
   color: #21CE99;
