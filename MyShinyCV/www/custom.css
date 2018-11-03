@@ -1,5 +1,5 @@
 /* CHANGE COLORS ON TOP OF BOXES */
-#skillsbox > div, #mainbox > div, #aboutbox > div, #networkbox > div, #projectbox > div, #publicationbox > div, #teachingbox > div, #profilebox > div {
+#skillsbox > div, #main_box > div, #aboutbox > div, #networkbox > div, #projectbox > div, #publicationbox > div, #teachingbox > div, #profilebox > div {
     border-width:thin;
     border-top-width:thick;
     border-bottom-color: white;
@@ -8,6 +8,11 @@
     border-top-color:#252C34;
 }
 
+
+/* CHANGE COLOR OF MAIN SIDE BAR */
+body > div > aside {
+  color: #FFFFFF;
+}
 
 
 /* CHANGE COLOR OF SYMBOLS */
