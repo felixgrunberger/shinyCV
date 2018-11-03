@@ -83,6 +83,14 @@ border-right-color: white;
 border-top-color:#252C34;
 }
 
+#profilebox > div {
+    border-width:thin;
+    border-top-width:thick;
+    border-bottom-color: white;
+    border-left-color:white;
+    border-right-color: white;
+    border-top-color:#252C34;
+}
 
 
 
