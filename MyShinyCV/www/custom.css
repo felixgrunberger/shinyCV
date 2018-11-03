@@ -1,3 +1,17 @@
+/* CHANGE COLORS ON TOP OF BOXES */
+#skillsbox #mainbox #networkbox #projectbox #publicationbox #skillsbox #teachingbox #profilebox > div {
+    border-width:thin;
+    border-top-width:thick;
+    border-bottom-color: white;
+    border-left-color:white;
+    border-right-color: white;
+    border-top-color:#252C34;
+}
+
+/*                            */
+
+
+
 /* CUSTOM FONTS */
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
 
@@ -83,14 +97,7 @@ border-right-color: white;
 border-top-color:#252C34;
 }
 
-#profilebox > div {
-    border-width:thin;
-    border-top-width:thick;
-    border-bottom-color: white;
-    border-left-color:white;
-    border-right-color: white;
-    border-top-color:#252C34;
-}
+
 
 
 
