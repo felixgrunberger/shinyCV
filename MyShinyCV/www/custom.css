@@ -5,7 +5,7 @@
     border-bottom-color: white;
     border-left-color:white;
     border-right-color: white;
-    border-top-color:#252C34;
+    border-top-color:#000000;
 }
 
 .nav-tabs-custom .nav-tabs li.active {
@@ -14,7 +14,7 @@
     border-bottom-color: white;
     border-left-color:white;
     border-right-color: white;
-    border-top-color:#252C34;
+    border-top-color:#000000;
 }
 
 /* customize background color of body */
@@ -25,8 +25,7 @@
 
 /* CHANGE COLOR OF MAIN SIDE BAR */
 .sidebar {
-  color: #FFFFFF;
-  background-color: #FFFFFF;
+  color: #000000;
 }
 
 /* CHANGE COLOR OF SYMBOLS */
@@ -36,5 +35,5 @@ i {
 
 
 #dynamicFooter {
-  color: #FFFFFF;
+  color: #000000;
 }
