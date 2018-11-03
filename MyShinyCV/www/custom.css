@@ -8,13 +8,17 @@
     border-top-color:#252C34;
 }
 
-
-/* CHANGE COLOR OF MAIN SIDE BAR */
-body > div > aside {
-  background-color: #FFFFFF;
+#main_box > div > div {
+    border-width:thin;
+    border-top-width:thick;
+    border-bottom-color: white;
+    border-left-color:white;
+    border-right-color: white;
+    border-top-color:#252C34;
 }
 
-.main-sidebar {
+/* CHANGE COLOR OF MAIN SIDE BAR */
+main-sidebar {
   color: #FFF;
   background-color: #FFF;
 }
