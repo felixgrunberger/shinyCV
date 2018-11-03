@@ -24,7 +24,7 @@
 
 
 /* CHANGE COLOR OF MAIN SIDE BAR */
-#c("#EBEBEB", "#FFFFFF", "#FFFFFF")sidebar {
+.sidebar {
   color: #FFF;
   background-color: #FFF;
 }
