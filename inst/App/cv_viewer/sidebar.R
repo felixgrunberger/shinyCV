@@ -1,1 +1,1 @@
-sidebar <- dashboardSidebar(disable = TRUE)
+sidebar <- dashboardSidebar(disable = TRUE, width = 0)

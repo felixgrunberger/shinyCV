@@ -1,1 +1,1 @@
-sidebar <- dashboardSidebar(disable = TRUE, color = "black")
+sidebar <- dashboardSidebar(disable = TRUE)
