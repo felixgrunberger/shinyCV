@@ -1,0 +1,19 @@
+h1, h2, h3 {
+	color: red;
+}
+
+a:hover {
+	text-decoration:underline;
+	color: #E94B21;
+}
+
+a {
+	color:#E94B21;
+}
+
+
+.content-wrapper{
+  color: black;
+  fill: black;
+}
+
