@@ -8,7 +8,7 @@
     border-top-color:#252C34;
 }
 
-#main_box > div > div {
+.nav-tabs-custom {
     border-width:thin;
     border-top-width:thick;
     border-bottom-color: white;
