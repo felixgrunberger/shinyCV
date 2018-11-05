@@ -65,7 +65,10 @@ a:hover {
 /* CHANGE COLOR OF BG LIGHT BLUE */
 .bg-light-blue {
   background-color: #847EB8 !important;
-  color: #FFFFFF !important;
+}
+
+.bg-light-blue b {
+    color: #FFFFFF !important;
 }
 
 .bg-aqua {
