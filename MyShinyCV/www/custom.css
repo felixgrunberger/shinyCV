@@ -30,7 +30,7 @@
 
 /* CHANGE COLOR OF BUTTON */
 #profilebox > div > div > a {
-  background-color: #EBEBEB !important;
+  background-color: #000000 !important;
 }
 
 #profilebox > div > div > a:hover {
@@ -49,4 +49,21 @@ b {
 
 #dynamicFooter {
   background-color: #000000;
+}
+
+/* CHANGE COLOR OF LINKS */
+a {
+  color: #21CE99 !important;
+}
+
+a:hover {
+	text-decoration:underline;
+	color: #21CE99 !important;
+}
+
+
+/* CHANGE COLOR OF BG LIGHT BLUE */
+.bg-light-blue {
+  color: red !important;
+}
 }
