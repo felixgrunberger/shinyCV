@@ -64,6 +64,12 @@ a:hover {
 
 /* CHANGE COLOR OF BG LIGHT BLUE */
 .bg-light-blue {
-  color: red !important;
+  background-color: red !important;
 }
+
+.bg-light-blue-activ {
+  background-color: red !important;
 }
+
+
+
