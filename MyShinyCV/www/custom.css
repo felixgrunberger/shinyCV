@@ -65,7 +65,7 @@ a:hover {
 /* CHANGE COLOR OF BG LIGHT BLUE */
 .bg-light-blue {
   background-color: #847EB8 !important;
-  color: white !important;
+  color: #FFFFFF !important;
 }
 
 .bg-aqua {
@@ -84,7 +84,6 @@ a:hover {
 
 /* CHANGE COLOR OF STARS */
 #formation_timeline > div > ul > li:nth-child(2) > div > h3 > a > i:nth-child(4) {
-    background-color: #21CE99 !important;
     color: #21CE99 !important;
 }
 
