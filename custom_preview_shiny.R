@@ -57,16 +57,20 @@ temp_network <- data.frame(
 
 # datas for formation example
 temp_formations <- data.frame(
-  title = c("B. Sc", "M. Sc", "PhD"),
-  topic = c("Focus subjects: Molecular Microbiology, Molecular Genetics"),
+  title = c("B. Sc Biology", "M. Sc Biology", "PhD"),
+  topic = c("user", "key", "graduation-cap"),
   from = c("2010-10", "2013-10", "2016-02"),
   to = c("2013-09", "2016-01","now"),
-  summary = c("Bachelor of Science", "Master of Science", "PhD"),
+  summary = c("Focus subjects: Molecular Microbiology, Molecular Genetics", "Major subjects: Bioinformatics, Microbiology, Immunology", "Functional analysis of unknown gene regulatory networks in Pyrococcus furiosus
+"),
   place = rep("Regensburg", 3),
   supervisor = c("Winfried Hausner","Winfried Hausner","Winfried Hausner, Dina Grohmann"),
   grade = c(4, 5, 0),
-  extra = rep("dasdasda", 3)
+  extra = c("Bachelor thesis: Expression of a bifunctional aldehyde-/ alcohol-dehydrogenase in Pyrococcus furiosus",
+            "Master thesis: AP-MS to detect novel RNAP-binding proteins in Pyrococcus furiosus",
+            "Topic: Functional analysis of unknown gene regulatory networks in Pyrococcus furiosus")
 )
+
 
 # datas for task example
 temp_tasks <- list(
@@ -92,11 +96,11 @@ temp_tasks <- list(
 # datas for project example
 temp_projects <- data.frame(
   title = c("My project 1", "My_project 2",
-            "My project 3", "My project 4"),
-  position = c("Big Boss", "Slave", "Big Boss", "Slave"),
-  overview = rep("an amazing project", 4),
-  supervisors = rep("Jean Eude", 4),
-  place = rep("Somewhere", 4)
+            "My project 3"),
+  position = c("Big Boss", "Slave", "Big Boss"),
+  overview = rep("an amazing project", 3),
+  supervisors = rep("Jean Eude", 3),
+  place = rep("Somewhere", 3)
 )
 
 # datas for publications screenshots
@@ -168,7 +172,6 @@ temp_internships <- data.frame(
   level = c("bachelor", "master", "PhD", "PostDoc"),
   advert = rep("http://google.com", 4)
 )
-
 
 
 feed_datas <- feed_shinyCV(temp_profile, temp_about, temp_skills, temp_languages,temp_network,

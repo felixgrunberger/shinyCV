@@ -9,7 +9,7 @@ shinyServer(function(input, output, session) {
       about = datas$about,
       skills = datas$skills,
       languages = datas$languages,
-      users = datas$network,
+      #users = datas$network,
       formations = datas$formations,
       tasks = datas$tasks,
       projects = datas$projects,
@@ -536,7 +536,7 @@ shinyServer(function(input, output, session) {
   output$dynamicFooter <- renderFooter({
     dashboardFooter(
       mainText = h5(
-        "2017, David Granjon, Zurich.",
+        "2018, Felix Grünberger, Regensburg.",
         "Built with",
         img(src = "https://www.rstudio.com/wp-content/uploads/2014/04/shiny.png", height = "30"),
         "by",
