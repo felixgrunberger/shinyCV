@@ -156,7 +156,16 @@ a:hover {
 
 
 /* CHANGE COLOR OF RED BUTTONS */
-#skillsbox > div > div.box-footer > div > div:nth-child > div > span.badge.bg-red {
+#skillsbox > div > div.box-footer > div > div:nth-child(1) > div > span.badge.bg-red {
+    background-color: #21CE99 !important;
+}
+#skillsbox > div > div.box-footer > div > div:nth-child(2) > div > span.badge.bg-red {
+    background-color: #21CE99 !important;
+}
+#skillsbox > div > div.box-footer > div > div:nth-child(3) > div > span.badge.bg-red {
+    background-color: #21CE99 !important;
+}
+#skillsbox > div > div.box-footer > div > div:nth-child(4) > div > span.badge.bg-red {
     background-color: #21CE99 !important;
 }
 
