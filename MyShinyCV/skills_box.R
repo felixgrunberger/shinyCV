@@ -56,6 +56,14 @@ skills_box <- function(languages, #github_name, allow_github_calendar,
             plotOutput("skillsradar", width = "100%", height = "200px")
           )
         ),
+        # Wetlab
+        tags$div(
+          class = "col-md-4",
+          tags$p(
+            class = "text-center",
+            tags$i(class = "fa fa-volume-up margin-r-5"), tags$strong("Wetlab")
+          )
+        ),
         # Languages column
         tags$div(
           class = "col-md-4",
