@@ -144,10 +144,12 @@ a:hover {
 /* CHANGE COLOR OF INTERESTS */
 #profilebox > div > div > ul > li:nth-child(2) > span.bg-light-blue-active.color-palette {
     background-color: #847EB8 !important;
-    border-radius: 1px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 #profilebox > div > div > ul > li:nth-child(2) > span.bg-aqua-active.color-palette {
     background-color: #3C318F !important;
-    border-radius: 1px;
+    border-radius: 5px;
+    padding: 5px;
 }
