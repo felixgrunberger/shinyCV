@@ -92,8 +92,7 @@ a:hover {
 
 #profilebox > div > div > a:hover {
   color: #21CE99 !important;
-  background-color: #9E9E9E !important;
-  border-color: #EBEBEB !important;
+  font-weight: bold;
 }
 
 #formation_timeline > div > ul > li:nth-child(2) > div > div.timeline-footer > a {
@@ -102,10 +101,31 @@ a:hover {
   border-color: #EBEBEB !important;
 }
 
-#formation_timeline > div > ul > li:nth-child > div > div.timeline-footer > a:hover {
-  color: #21CE99 !important;
-  background-color: #9E9E9E !important;
+#formation_timeline > div > ul > li:nth-child(2) > div > div.timeline-footer > a:hover {
+    color: #21CE99 !important;
+  font-weight: bold;
+}
+
+#formation_timeline > div > ul > li:nth-child(3) > div > div.timeline-footer > a {
+  color: #000000 !important;
+  background-color: #EBEBEB !important;
   border-color: #EBEBEB !important;
+}
+
+#formation_timeline > div > ul > li:nth-child(3) > div > div.timeline-footer > a:hover {
+    color: #21CE99 !important;
+  font-weight: bold;
+}
+
+#formation_timeline > div > ul > li:nth-child(4) > div > div.timeline-footer > a {
+  color: #000000 !important;
+  background-color: #EBEBEB !important;
+  border-color: #EBEBEB !important;
+}
+
+#formation_timeline > div > ul > li:nth-child(4) > div > div.timeline-footer > a:hover {
+    color: #21CE99 !important;
+  font-weight: bold;
 }
 
 
