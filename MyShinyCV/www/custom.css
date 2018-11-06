@@ -6,7 +6,7 @@
 }
 
 /* CHANGE TEXT FONT */
-p {
+* {
   font-family: "San Francisco" !important;
 }
 
