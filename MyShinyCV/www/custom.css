@@ -84,12 +84,17 @@ a:hover {
 
 
 /* CHANGE COLOR OF BUTTONS */
-button {
+#profilebox > div > div > a {
   color: #000000 !important;
   background-color: #EBEBEB !important;
   border-color: #EBEBEB !important;
 }
 
+#profilebox > div > div > a:hover {
+  color: #21CE99 !important;
+  background-color: #EBEBEB !important;
+  border-color: #EBEBEB !important;
+}
 
 
 /* CHANGE COLOR OF STARS */
