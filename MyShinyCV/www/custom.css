@@ -92,10 +92,21 @@ a:hover {
 
 #profilebox > div > div > a:hover {
   color: #21CE99 !important;
+  background-color: #9E9E9E !important;
+  border-color: #EBEBEB !important;
+}
+
+#formation_timeline > div > ul > li:nth-child > div > div.timeline-footer > a {
+  color: #000000 !important;
   background-color: #EBEBEB !important;
   border-color: #EBEBEB !important;
 }
 
+#formation_timeline > div > ul > li:nth-child > div > div.timeline-footer > a:hover {
+  color: #21CE99 !important;
+  background-color: #9E9E9E !important;
+  border-color: #EBEBEB !important;
+}
 
 /* CHANGE COLOR OF STARS */
 #formation_timeline > div > ul > li > div > h3 > a > i {
