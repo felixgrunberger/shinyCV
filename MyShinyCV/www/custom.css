@@ -56,8 +56,6 @@ a:hover {
 /* CHANGE COLOR OF BUTTONS TIMELINE AND TEXT WITH {B} argument */
 .bg-light-blue {
   background-color: #847EB8 !important;
-  border-radius: 3px;
-  padding: 3px;
 }
 
 .bg-light-blue b {
@@ -66,8 +64,6 @@ a:hover {
 
 .bg-aqua {
   background-color: #3C318F !important;
-  border-radius: 3px;
-  padding: 3px;
 }
 
 .bg-aqua b{
@@ -76,8 +72,6 @@ a:hover {
 
 .bg-green {
   background-color: #21CE99 !important;
-  border-radius: 3px;
-  padding: 3px;
 }
 
 .bg-green b {
@@ -159,3 +153,10 @@ a:hover {
     border-radius: 3px;
     padding: 3px;
 }
+
+
+/* CHANGE COLOR OF RED BUTTONS */
+#skillsbox > div > div.box-footer > div > div:nth-child > div > span.badge.bg-red {
+    background-color: #21CE99 !important;
+}
+
