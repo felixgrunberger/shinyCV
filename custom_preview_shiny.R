@@ -1,5 +1,5 @@
 #library(devtools)
-#library(here)
+library(here)
 install_github("felixgrunberger/shinyCV")
 library(shinyCV)
 
@@ -17,7 +17,7 @@ temp_profile <- list(
   my_website = "https://felixgrunberger.com",
   my_teaser = "Hi, I´m Felix! Currently, I´m doing my PhD in Biology working on gene regulatory networks in archaea.",
   my_image = list(
-    src = system.file("inst/App/cv_viewer/www/man2.png", package = "shinyCV"),
+    src = system.file("inst/App/cv_viewer/www/profile_avatar_white.png", package = "shinyCV"),
     # very important to keep the adminLTE image border
     class = "profile-user-img img-responsive img-circle",
     alt = "User profile picture"
@@ -110,6 +110,7 @@ demo_list <- list(
   style = "height: 100px; display: block;
   margin-left: auto; margin-right: auto;"
 )
+
 temp_publications_screenshots <- list(demo_list, demo_list, demo_list)
 
 # data for publication example
