@@ -96,7 +96,7 @@ a:hover {
   border-color: #EBEBEB !important;
 }
 
-#formation_timeline > div > ul > li:nth-child > div > div.timeline-footer > a {
+#formation_timeline > div > ul > li:nth-child(2) > div > div.timeline-footer > a {
   color: #000000 !important;
   background-color: #EBEBEB !important;
   border-color: #EBEBEB !important;
@@ -107,6 +107,7 @@ a:hover {
   background-color: #9E9E9E !important;
   border-color: #EBEBEB !important;
 }
+
 
 /* CHANGE COLOR OF STARS */
 #formation_timeline > div > ul > li > div > h3 > a > i {
