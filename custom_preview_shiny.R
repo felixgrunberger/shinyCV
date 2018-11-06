@@ -1,5 +1,5 @@
-library(devtools)
-library(here)
+#library(devtools)
+#library(here)
 install_github("felixgrunberger/shinyCV")
 library(shinyCV)
 
