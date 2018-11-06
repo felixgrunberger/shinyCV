@@ -28,15 +28,6 @@
   background-color: #000000 !important;
 }
 
-/* CHANGE COLOR OF BUTTON */
-#profilebox > div > div > a {
-  background-color: #000000 !important;
-}
-
-#profilebox > div > div > a:hover {
-  background-color: #21CE99 !important;
-}
-
 
 /* CHANGE COLOR OF SYMBOLS */
 i {
@@ -93,7 +84,7 @@ a:hover {
 
 
 /* CHANGE COLOR OF BUTTONS */
-.btn btn-primary btn-xs {
+button {
   color: #000000 !important;
   background-color: #EBEBEB !important;
   border-color: #EBEBEB !important;
