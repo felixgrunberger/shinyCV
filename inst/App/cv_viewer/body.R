@@ -12,8 +12,8 @@ body <- dashboardBody(
   ),
   column(6, offset = 0, style = 'padding:0px;', uiOutput("main_box")),
   column(3, offset = 0, style = 'padding:0px;',
-         uiOutput("skillsbox"),
-         uiOutput("networkbox")
+         uiOutput("skillsbox")#,
+         #uiOutput("networkbox")
   ),
   # add e new empty row to prevent previous boxes from being displayed out of
   # the dashboard footer
