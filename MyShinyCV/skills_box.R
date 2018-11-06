@@ -1,4 +1,4 @@
-skills_box <- function(languages, #github_name, allow_github_calendar,
+skills_box <- function(languages, wetlab, #github_name, allow_github_calendar,
                        nb_projects, nb_publications, nb_conferences, nb_courses,
                        nb_users) {
 
