@@ -49,7 +49,6 @@ shinyServer(function(input, output, session) {
         about = data.frame(),
         skills = data.frame(),
         languages = data.frame(),
-        wetlab = data.frame(),
         users = data.frame(),
         formations = data.frame(),
         tasks = list(),
@@ -169,7 +168,6 @@ shinyServer(function(input, output, session) {
     # skills and languages to pass to the box function
     my_skills <- df$skills
     my_languages <- df$languages
-    my_wetlab <- df$wetlab
 
     #my_github_name <- input$github_name
     #github_calendar_state <- input$allow_github_calendar
@@ -182,7 +180,7 @@ shinyServer(function(input, output, session) {
     total_users <- nrow(df$users)
 
     # call the skill_box function
-    skills_box(languages = my_languages,wetlab = my_wetlab,
+    skills_box(languages = my_languages,
                #github_name = my_github_name, allow_github_calendar = github_calendar_state,
                nb_projects = total_projects, nb_publications = total_publications,
                nb_conferences = total_conferences, nb_courses = total_courses,

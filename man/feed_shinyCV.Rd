@@ -4,8 +4,9 @@
 \alias{feed_shinyCV}
 \title{Provide your own external datas to shinyCV.}
 \usage{
-feed_shinyCV(profile, about, skills, languages, network, formations, projects,
-  tasks, publications, publications_screenshots, talks, courses, internships)
+feed_shinyCV(profile, about, skills, languages, network, formations,
+  projects, tasks, publications, publications_screenshots, talks, courses,
+  internships)
 }
 \arguments{
 \item{profile}{The profile object should be a \strong{list} containing, in the

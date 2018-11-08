@@ -17,7 +17,7 @@ temp_profile <- list(
   my_website = "https://felixgrunberger.com",
   my_teaser = "Hi, I´m Felix! Currently, I´m doing my PhD in Biology working on gene regulatory networks in archaea.",
   my_image = list(
-    src = system.file("inst/App/cv_viewer/www/profile_avatar_white.png", package = "shinyCV"),
+    src = system.file("App/cv_viewer/www/profile_avatar.png", package = "shinyCV"),
     # very important to keep the adminLTE image border
     class = "profile-user-img img-responsive img-circle",
     alt = "User profile picture"
@@ -95,12 +95,19 @@ temp_tasks <- list(
 
 # datas for project example
 temp_projects <- data.frame(
-  title = c("My project 1", "My_project 2",
-            "My project 3"),
-  position = c("Big Boss", "Slave", "Big Boss"),
-  overview = rep("an amazing project", 3),
-  supervisors = rep("Jean Eude", 3),
-  place = rep("Somewhere", 3)
+  title = c("Nanopore sequencing",
+            "Genome re-annotation",
+            "Gene regulatory networks"),
+  position = c("",
+               "",
+               ""),
+  overview = c("Establishment of DNA and RNA Nanopore sequencing for archaeal organisms.",
+               "RNA-seq based re-annotation project to update genomic information for a hyperthermophilic organism.",
+               "Integrative multi-omics approach to decipher gene regulatory metabolic or stress condition networks"),
+  supervisors = c("Dina Grohmann",
+                  "Winfried Hausner",
+                  "Winfried Hausner"),
+  place = rep("University of Regensburg", 3)
 )
 
 # datas for publications screenshots
@@ -131,9 +138,13 @@ temp_publications <- data.frame(
 
 # datas for talk example
 temp_talks <- data.frame(
-  title = rep("My Talk", 5),
-  from = rep("1900-01-01", 5),
-  to = rep("1900-01-01", 5),
+  title = c("AP-MS studies with the euryarchaeal RNAP",
+            "Global transcriptional start site mapping in Pyrococcus furiosus",
+            "Global transcriptional start site mapping in Pyrococcus furiosus",
+            "Nanopore sequencing of a new full-genome annotated version of Pyrococcus furiosus",
+            "Nanopore sequencing of a new full-genome annotated version of Pyrococcus furiosus"),
+  from = c("2016-03", "2017-09", "2017-10", "2018-06", "2018-09"),
+  to = rep("", 5),
   summary = rep("Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua.
@@ -143,7 +154,7 @@ temp_talks <- data.frame(
                 voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 Excepteur sint occaecat cupidatat non proident, sunt in
                 culpa qui officia deserunt mollit anim id est laborum.", 5),
-  place = rep("Somewhere", 5),
+  place = c("University of Jena", "Monastry Weltenburg", "Regensburg", "Niederalteich", "University of Vienna"),
   price = c(rep("yes", 3), rep("no", 2)),
   website = rep("http://google.com", 5)
   )
