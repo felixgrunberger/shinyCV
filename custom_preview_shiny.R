@@ -155,7 +155,7 @@ temp_talks <- data.frame(
                 Excepteur sint occaecat cupidatat non proident, sunt in
                 culpa qui officia deserunt mollit anim id est laborum.", 5),
   place = c("University of Jena", "Monastry Weltenburg", "Regensburg", "Niederalteich", "University of Vienna"),
-  price = c(rep("yes", 3), rep("no", 2)),
+  price = c(rep("no", 3), rep("no", 2)),
   website = rep("http://google.com", 5)
   )
 
